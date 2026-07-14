@@ -16,3 +16,59 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>나의 Git 프로필</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main class="container">
+    <h1>나의 Git 프로필</h1>
+<section>
+    <h2>소개</h2> 
+    <p>안녕하세요. Git과 GitHub를 배우고 있는 수강생입니다.</p>
+    </section>
+
+<section>
+    <h2>오늘 배운 내용</h2>
+    <ul>
+        <li>Git 저장소 만들기</li>
+        <li>파일 스테이징과 커밋</li>
+        <li>브랜치 생성과 병합</li>
+        <li>GitHub 업로드</li>
+    </ul>
+</section>
+</main>
+</body>
+</html>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f5f7;
+    color: #222;
+}
+
+.container {
+    width: 720px;
+    margin: 60px auto;
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin-top: 0;
+    color: #1f2937;
+}
+h2 {
+    margin-top: 28px;
+    color: #374151;
+}
+li {
+    margin-bottom: 8px;
+}
